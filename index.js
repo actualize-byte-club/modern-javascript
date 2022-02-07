@@ -1,5 +1,10 @@
-/* global moment */
+/* global moment, dayjs */
 
-console.log("Hello from JavaScript!");
-var myDate = moment().format("MMM Do YY");
-console.log(myDate);
+var moment = require("moment"); // require
+var dayjs = require("dayjs");
+const { sqrt } = require("mathjs");
+console.log(moment().format());
+console.log(dayjs().format());
+console.log(sqrt(-4).toString());
+
+console.log("THIS IS AWESOME!");
