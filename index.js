@@ -1,10 +1,13 @@
 /* global moment, dayjs */
 
-const moment = require("moment");
-const dayjs = require("dayjs");
-const { sqrt } = require("mathjs");
+import moment from "moment";
+import dayjs from "dayjs";
+import { sqrt } from "mathjs";
 console.log(moment().format());
 console.log(dayjs().format());
 console.log(sqrt(-4).toString());
 
-console.log("THIS IS AWESOME!");
+let name = "Bob";
+let day = "Monday";
+
+console.log(`Hello ${name}, how are you doing this ${day}?`);
