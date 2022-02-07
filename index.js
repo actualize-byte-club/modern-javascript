@@ -11,3 +11,4 @@ let name = "Bob";
 let day = "Monday";
 
 console.log(`Hello ${name}, how are you doing this ${day}?`);
+console.log("Live servers are awesome!");
