@@ -1,7 +1,7 @@
 /* global moment, dayjs */
 
-var moment = require("moment"); // require
-var dayjs = require("dayjs");
+const moment = require("moment");
+const dayjs = require("dayjs");
 const { sqrt } = require("mathjs");
 console.log(moment().format());
 console.log(dayjs().format());
